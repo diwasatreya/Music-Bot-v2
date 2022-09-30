@@ -46,7 +46,7 @@ client.slash = new discord.Collection();
 require('node:http')
   .createServer((_, res) =>
     res.end(
-      `Developed by <b><a href="fiverr.com/diwasatreya">diwasatreya</a></b> `,
+      `Developed by <b><a href="https://github.com/diwasatreya">diwasatreya</a></b> `,
     ),
   )
   .listen(8080);
