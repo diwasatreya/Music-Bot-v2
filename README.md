@@ -1,3 +1,11 @@
+<div align="center">
+  <br>
+  <h3> Star the Project + Follow me on github </h3>
+
+ <img src="https://user-images.githubusercontent.com/74746579/168328818-6995ed8d-915d-4083-9279-3d94e1d150c5.png" alt="help to star">
+ </div>
+           
+
 # Information
 
 - Watch the video carefully for instalizaion
