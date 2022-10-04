@@ -11,7 +11,7 @@
     "dotenv": "^16.0.1",
     "ms": "^2.1.3",
     "path": "^0.12.7",
-    "poru": "git+https://github.com/parasop/poru.git"
+    "poru": "3.5.1"
   },
   "scripts": {
     "start": "node index.js",
