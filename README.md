@@ -1,5 +1,7 @@
+![music bot v2](https://user-images.githubusercontent.com/74746579/193857533-7094bab4-192f-4e66-92c5-9b961524829b.png)
 <div align="center">
   <br>
+
   <h3> Star the Project + Follow me on github </h3>
 
  <img src="https://user-images.githubusercontent.com/74746579/168328818-6995ed8d-915d-4083-9279-3d94e1d150c5.png" alt="help to star">
