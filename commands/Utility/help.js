@@ -7,36 +7,33 @@ module.exports = {
 
 
     if (!args[0]) {
-      let categories = [];
-
-      readdirSync("./commands/").forEach((dir) => {
-        const commands = readdirSync(`./commands/${dir}/`).filter((file) =>
-          file.endsWith(".js")
-        );
-
-        const cmds = commands.map((command) => {
-          let file = require(`../../commands/${dir}/${command}`);
-
-          if (!file.name) return "No command name.";
-
-          let name = file.name.replace(".js", "");
-
-          return `\`${name}\``;
-        });
-
-        let data = new Object();
-
-        data = {
-          name: dir.toUpperCase(),
-          value: cmds.length === 0 ? "UNKNOWN" : cmds.join(", "),
-        };
-
-        categories.push(data);
-      });
-
+   
+// copyright 2022 @diwasatreya
+      
       const embed = new MessageEmbed()
         .setTitle("HELP MENU")
-        .addFields(categories)
+        .setDescription(`
+        Here  are the commands available for this bot 
+        \`cqueue\`  : clears the queue
+        \`join\`    : join the VC
+        \`jump\`    : jump the queue
+        \`loop\`    : repeat the song
+        \`pause\`   : pause the song
+        \`play\`    : play the song
+        \`queue\`   : show queue songs
+        \`radio\`   : play radio station
+        \`remove\`  : remove song from queue
+        \`remove\`  : remove song from queue
+        \`repeat\`  : loop the song
+        \`seek\`    : skip some clip
+        \`shuffle\` : shuffle the queue
+        \`skip\`    : skip the whole song
+        \`spotify\` : play spotify song
+        \`stop\`    : stop the song
+        \`volume\`  : change the volume
+        \`help\`    : show all commands
+        \`ping\`    : show the bot ping
+      `)
 
         .setFooter(
           `Requested by ${message.author.tag}`,
@@ -62,7 +59,7 @@ module.exports = {
 
       const embed = new MessageEmbed()
         .setTitle("Help Command: " + args[0])
-        .addField("PREFIX:", `\`?\``)
+        .addField("PREFIX:", `\`!\``)
         .addField(
           "COMMAND:",
           command.name ? `\`${command.name}\`` : "No name for this command."
