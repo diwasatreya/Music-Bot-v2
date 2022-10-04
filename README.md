@@ -1,4 +1,4 @@
-![music bot v2](https://user-images.githubusercontent.com/74746579/193857533-7094bab4-192f-4e66-92c5-9b961524829b.png)
+[![music bot v2](https://user-images.githubusercontent.com/74746579/193857533-7094bab4-192f-4e66-92c5-9b961524829b.png)](https://youtu.be/uDOZTsgyFNk)
 <div align="center">
   <br>
 
