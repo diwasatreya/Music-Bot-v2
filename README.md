@@ -1,3 +1,11 @@
+# Information
+
+- Watch the video carefully for instalizaion
+- You can read the `README.md` file for configration
+- If any coding help need then open the issue [ Dont ask coding help of this code in server ]
+- Last thing make sure to star & fork this repo
+
+
 ## Configration
 
 - Enter your bot token in .env file with `TOKEN` variable
@@ -30,9 +38,17 @@
 
 
 ### Need help?
-If you need help ! Feel free to join our [Support server](https://aromaxdev.xyz/discord)
+If you need help! Feel free to join our [Support server](https://aromaxdev.xyz/discord)
 
 
+
+# Some image captured from bot
+
+![image](https://user-images.githubusercontent.com/74746579/193800380-723bfd6a-f7b2-48ec-98a4-c4a2a6c3e10c.png)
+
+![image](https://user-images.githubusercontent.com/74746579/193800689-325fe092-783a-4573-b95a-08b9c205723c.png)
+
+![image](https://user-images.githubusercontent.com/74746579/193800738-23036e21-3f0e-496b-96a8-22f48b2d7b93.png)
 
 
 ### Music Package
