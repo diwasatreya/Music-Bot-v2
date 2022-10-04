@@ -30,7 +30,7 @@ client.poru = new Poru(client, client.config.nodes,{
   }
   
 })
-
+// copyright 2022 @diwasatreya
 client.commands = new discord.Collection();
 client.aliases = new discord.Collection();
 client.slash = new discord.Collection();
@@ -46,7 +46,7 @@ client.slash = new discord.Collection();
 require('node:http')
   .createServer((_, res) =>
     res.end(
-      `Developed by <b><a href="https://github.com/diwasatreya">diwasatreya</a></b> `,
+      `Developed by DIWAS ATREYA `,
     ),
   )
   .listen(8080);
