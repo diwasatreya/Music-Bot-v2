@@ -192,8 +192,20 @@ if(args[0]=="radio") {
 
  
 } else {
+const data = client.config.youtube
+if(data){
+  function is_url(aayan) {
+    return  /^(?:https?:\/\/)?(?:m\.|www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/gi.test(aayan) ? true : false
+    }
 
-
+    if(is_url(args[0])){
+      const embed = new MessageEmbed()
+      .setAuthor("Information")
+      .setDescription(`Youtube Support Has Been Disabled By Developer !`)
+      .setColor("RED")
+return message.reply({embeds: [embed]})
+    }
+  }
 const resolve = await client.poru.resolve(args.join(' '))
     const { loadType, tracks, playlistInfo } = resolve;
 

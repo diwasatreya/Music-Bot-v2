@@ -15,6 +15,8 @@ const client = new discord.Client({
   intents: [
     "GUILDS","GUILD_BANS", "GUILD_VOICE_STATES", "GUILD_MESSAGES", "GUILD_MESSAGE_REACTIONS"],
 });
+
+
 client.login(process.env.TOKEN).catch(e => console.log("No token provided"))
 // Atreya#2401 [diwasatreya]
 
@@ -30,6 +32,10 @@ client.poru = new Poru(client, client.config.nodes,{
   }
   
 })
+const bolbe = client.config.youtube
+if(typeof bolbe !== 'boolean'){
+   throw new RangeError("Youtube Should Be In Boolean")
+}
 // copyright 2022 @diwasatreya
 client.commands = new discord.Collection();
 client.aliases = new discord.Collection();

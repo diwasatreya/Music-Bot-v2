@@ -1,6 +1,7 @@
 {
   "prefix":"!",
   "owner":["519666024220721152"],
+  "youtube": true,
   "nodes":[
     {
       "name":"v1",

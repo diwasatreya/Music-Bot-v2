@@ -38,6 +38,10 @@
   
 *remove the `.js` file to remove command*
 
+### Enable/Disable Youtube Support
+- Goto `./config` in line number `4` 
+- To enable Youtube Support change the `false` boolean to `true`
+- To disable Youtube Support change the `true` boolean to `false`
 ### Change Status
 - Goto `/events/ready.js` in line number `8`
 

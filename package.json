@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "ascii-table": "0.0.9",
+    "canvafy": "^2.0.2",
     "chunk": "0.0.3",
     "discord-api-types": "^0.35.0",
     "discord.js": "^13.8.1",
