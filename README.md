@@ -61,5 +61,5 @@ If you need help! Feel free to join our [Support server](https://aromaxdev.xyz/d
 ![image](https://user-images.githubusercontent.com/74746579/193800738-23036e21-3f0e-496b-96a8-22f48b2d7b93.png)
 
 
-### Music Package
+### Music Package Used
 Made using [Poru](https://npmjs.com/poru) npm package
